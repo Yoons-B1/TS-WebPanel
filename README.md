@@ -43,7 +43,7 @@ internal_web_panel_config.json
 
 ### 4. Playback Behavior
 - If the **URL field is empty**, `standby.mp4` will automatically loop  
-- 'standby.mp4' file must be located in the **same folder as the executable**  
+- `standby.mp4` file must be located in the **same folder as the executable**  
 - Supported codec: **H.264 (video) + AAC (audio)**
 - **After changing or clearing the URL, please restart the application to apply the changes properly**  
 
@@ -111,7 +111,7 @@ internal_web_panel_config.json
 
 ### 4. 재생 동작
 - **URL이 빈칸일 경우 `standby.mp4` 영상이 자동으로 루프 재생됩니다**  
-- 'standby.mp4' 파일은 **실행파일과 같은 폴더에 위치해야 합니다**  
+- `standby.mp4` 파일은 **실행파일과 같은 폴더에 위치해야 합니다**  
 - 사용 코덱: **H.264 (영상), AAC (오디오)**
 - **URL 주소를 변경하거나 삭제한 경우, 정상 적용을 위해 앱을 재실행 해주세요.**  
 
