@@ -24,35 +24,58 @@
 - A settings window appears on first launch  
 - Press **F2** anytime to open settings  
 - Supports Korean / English toggle  
-- Configurable options:
-  - App title  
-  - URL  
-  - Window size & position  
-  - Zoom level  
-  - Fullscreen mode  
-  - Rotation  
 
-- Settings are saved as:
+Configurable options:
+- App title  
+- URL  
+- Window size & position  
+- Zoom level  
+- Fullscreen mode  
+- Rotation  
 
+Settings file:
 ```
 internal_web_panel_config.json
 ```
 
 ---
 
-### 4. Exit App
-- Press and hold the **top-left corner for 6 seconds** to exit  
-- Active area: **80x80 px square**
+### 4. Playback Behavior
+- If the **URL field is empty**, `standby.mp4` will automatically loop  
+- 'standby.mp4' file must be located in the **same folder as the executable**  
+- Supported codec: **H.264 (video) + AAC (audio)**  
 
 ---
+
+### 5. Controls & Shortcuts
+- Open settings: **F2**  
+- Manual refresh: **F5**  
+- Toggle fullscreen: **F11**  
+
 ---
+
+### 6. YouTube / Streaming Notice
+- **Live streaming (e.g. YouTube Live) is not officially supported**  
+- To enter fullscreen in YouTube:
+  - Press **F key** after the app starts  
+
+---
+
+### 7. Exit App
+- Press and hold the **top-left corner for 5 seconds** to exit  
+- Active area: **80x80 px square**
+- Or press **Ctrl + Q** to exit  
+
+---
+
+## 🇰🇷 한국어
 
 ### 1. 보안 경고 없는 내부 접속용 브라우저
 - 크롬, 엣지 등의 웹브라우저로 내부 웹서버에 접속할 수 있지만  
-  Windows에서는 내부 IP 접속 시 보안 경고가 표시됩니다.  
-- 이는 HTTPS가 아닌 HTTP로 접속하기 때문에 발생하는 문제입니다.  
-- 본 앱은 전체화면 전용 브라우저로, 내부 네트워크에서도 보안 경고 없이 사용할 수 있습니다.  
-- 전체화면이 아닌 경우에는 설정에서 저장한 위치에 브라우저가 고정됩니다.  
+  Windows에서는 내부 IP 접속 시 보안 경고가 표시됩니다  
+- 이는 HTTPS가 아닌 HTTP로 접속하기 때문에 발생하는 문제입니다  
+- 본 앱은 전체화면 전용 브라우저로, 내부 네트워크에서도 보안 경고 없이 사용할 수 있습니다  
+- 전체화면이 아닌 경우에는 설정에서 저장한 위치에 브라우저가 고정됩니다  
 
 ---
 
@@ -68,24 +91,44 @@ internal_web_panel_config.json
 - 처음 실행 시 설정창이 자동으로 표시됩니다  
 - 이후 **F2 키**로 설정창 진입 가능  
 - 한국어 / 영어 언어 전환 가능  
-- 설정 가능 항목:
-  - 앱 제목
-  - 접속 주소(URL)
-  - 창 크기 및 위치
-  - 줌 비율
-  - 전체화면 여부
-  - 회전 방향  
-- 설정 파일은 앱 폴더에 아래 파일로 저장됩니다:
 
+설정 가능 항목:
+- 앱 제목  
+- 접속 주소(URL)  
+- 창 크기 및 위치  
+- 줌 비율  
+- 전체화면 여부  
+- 회전 방향  
+
+설정 파일:
 ```
 internal_web_panel_config.json
 ```
 
 ---
 
-### 4. 앱 종료 방법
-- 앱 좌측 상단 모서리를 **6초간 길게 누르면 종료됩니다**
-- 활성 영역: **80x80px 사각 영역**
+### 4. 재생 동작
+- **URL이 빈칸일 경우 `standby.mp4` 영상이 자동으로 루프 재생됩니다**  
+- 'standby.mp4' 파일은 **실행파일과 같은 폴더에 위치해야 합니다**  
+- 사용 코덱: **H.264 (영상), AAC (오디오)**  
 
 ---
 
+### 5. 단축키
+- 설정 화면 진입: **F2**  
+- 수동 새로고침: **F5**  
+- 전체화면 전환: **F11**  
+
+---
+
+### 6. 유튜브 / 스트리밍 안내
+- **유튜브 등 라이브 스트리밍은 공식적으로 지원하지 않습니다**  
+- 유튜브 전체화면 방법:
+  - 앱 실행 후 **F 키** 입력  
+
+---
+
+### 7. 종료 방법
+- 화면 좌측 상단 모서리를 **5초간 길게 누르면 종료됩니다**  
+- 활성 영역: **80x80px**
+- 또는 **Ctrl + Q**를 눌러 종료할 수 있습니다 
