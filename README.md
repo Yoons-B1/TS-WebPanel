@@ -1,4 +1,4 @@
-![Platform](https://img.shields.io/badge/platform-Windows-blue) [![Release](https://img.shields.io/badge/Release-V1.8-fc1ba6)](https://github.com/yoons100/TS-WebPanel/releases) ![License](https://img.shields.io/github/license/yoons100/TS-WebPanel)
+![Platform](https://img.shields.io/badge/platform-Windows-blue) [![Release](https://img.shields.io/badge/Release-V1.8-fc1ba6)](https://github.com/yoons100/TS-WebPanel/releases) [![License](https://img.shields.io/github/license/yoons100/TS-WebPanel)](https://github.com/yoons100/TS-WebPanel/blob/main/LICENSE)
 # TS-WebPanel (Fullscreen Signage Browser for Windows)
 
 ---
